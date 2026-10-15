@@ -25,10 +25,5 @@ export const deliveryApproach = [
                 title:'Service delivery',
                 description:"The selected service is performed at the agreed location.",
             },
-            {
-                id:4,
-                icon:LuShoppingBag,
-                title:'Cosmetics sales',
-                description:"Customers can also purchase beauty and cosmetic products.",
-            },
+
 ]

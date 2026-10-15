@@ -10,23 +10,23 @@ const Services = ()=>{
     const filteredServices = services.filter(
         (service) => service.category===category   
     )
-
+    
    console.log(filteredServices)
       return(
-        <section className="w-full py-20 bg-[#FCF5E5]/50 px-6 md:px-0">
+        <section id="services" className="w-full py-20 bg-[#FCF5E5]/50 px-6">
             <header className="w-full max-w-6xl mx-auto text-center">
                  <h2 className="text-[1.5rem] font-extrabold mb-6">
                       Our Services
                  </h2>
              </header>
-            <div className="w-fit  mx-auto flex justify-center gap-4 my-6 border rounded-full p-2 px-4">
-                <button onClick={()=>setCategory('all')} className="cursor-pointer">
+            <div className="w-fit  mx-auto flex justify-center flex-wrap items-center gap-4 my-6">
+                <button onClick={()=>setCategory('all')} className={`cursor-pointer px-4 py-1 border ${category==='all'?'bg-[#3b3c36] text-white':''} rounded-full whitespace-nowrap`}>
                     For all
                 </button>
-                <button onClick={()=>setCategory('men')} className="cursor-pointer">
+                <button onClick={()=>setCategory('men')} className={`cursor-pointer px-4 py-1 border ${category==='men'?'bg-[#3b3c36] text-white':''} rounded-full whitespace-nowrap`}>
                     For men
                 </button>
-                <button onClick={()=>setCategory('ladies')} className="cursor-pointer">
+                <button onClick={()=>setCategory('ladies')} className={`cursor-pointer px-4 py-1  border ${category==='ladies'?'bg-[#3b3c36] text-white':''} rounded-full whitespace-nowrap`}>
                     For women
                 </button>
             </div>
@@ -47,8 +47,8 @@ const Services = ()=>{
                               {item.description}
                             </p>
                             <hr className="text-gray-500/20" />
-                            <a href="/" className="uppercase text-xs tracking-wide flex items-center gap-2">
-                               Get this service
+                            <a href="/" className="uppercase text-xs tracking-wide flex flex-wrap items-center gap-x-2">
+                               Book This Service
                                <LuArrowRight className="size-4 text-black/60"/>
                             </a>
                         </div>

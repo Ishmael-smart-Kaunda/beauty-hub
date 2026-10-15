@@ -8,13 +8,13 @@ import {
 const propositions = [
             {
                 id:1,
-                icon:LuClock,
+                icon:LuHouse,
                 title:'Beauty at your location',
                 description:"Clients receive services at home, at the office, or at events in Cape Town. This is the business's main competitive advantage and should be the central message on the homepage.",
             },
             {
                 id:2,
-                icon:LuHouse,
+                icon:LuClock,
                 title:'Beauty for everyone',
                 description:"The unisex approach serves different customer groups through haircuts, braiding, dreadlocks, nails, makeup, grooming, tattoos, and cosmetics.",
             },
