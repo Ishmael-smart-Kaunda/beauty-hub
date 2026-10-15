@@ -47,7 +47,10 @@ const Services = ()=>{
                               {item.description}
                             </p>
                             <hr className="text-gray-500/20" />
-                            <a href="/" className="uppercase text-xs tracking-wide flex flex-wrap items-center gap-x-2">
+                            <a  href="https://wa.me/+0676279132?text=Hi%20Beauty%20Hub!%20I%27d%20like%20to%20book%20a%20service."
+                                target="_blank"
+                                rel="noopener noreferrer"
+                               className="uppercase text-xs tracking-wide flex flex-wrap items-center gap-x-2">
                                Book This Service
                                <LuArrowRight className="size-4 text-black/60"/>
                             </a>

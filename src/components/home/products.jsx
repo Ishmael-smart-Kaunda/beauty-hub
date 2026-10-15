@@ -43,7 +43,10 @@ const Products = ()=>{
                                 {item.description}
                             </p>
                             {/*cta */}
-                            <a href="/" className="px-6 py-2 font-bold bg-amber-800 text-white border mt-2 rounded-full">
+                            <a href="https://wa.me/+0676279132?text=Hi%20Beauty%20Hub!%20I%27d%20like%20to%20buy%20this%20product."
+                                target="_blank"
+                                rel="noopener noreferrer"
+                               className="px-6 py-2 font-bold bg-amber-800 text-white border mt-2 rounded-full">
                                 Shop Now
                             </a>
                         </div>
