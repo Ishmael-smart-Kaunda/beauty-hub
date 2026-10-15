@@ -41,7 +41,7 @@ const NavBar = () => {
              </div>
 
              {/*navigation */}
-             <div className={`flex z-50 fixed top-15 left-0 ${isOpen ? 'translate-x-0' : '-translate-x-full'} w-full h-[100vh] bg-white/90 transition-all duration-500 backdrop-blur-md`}>
+             <div className={`flex z-50 fixed top-15 left-0 ${isOpen ? 'translate-x-0' : '-translate-x-[150%]'} w-full h-[100vh] bg-white/90 transition-all duration-500 backdrop-blur-md`}>
                         
                         <nav className="m-auto text-black text-[2rem]">
                            menu items
