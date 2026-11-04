@@ -46,15 +46,18 @@ const Footer = () => {
                         <p className="text-xs text-center font-light text-amber-800">unisex salon</p>
                        <p className="text-center">Your Beauty. Your Space. Your Time.</p>
 
-                       {/*social */}
+                       {/*=====================
+                          social 
+                          =====================
+                        */}
                        <div className="flex justify-center gap-4 mt-6">
-                          <a href="/" className="">
+                          <a href="https://www.facebook.com/profile.php?id=61589411817910&from_xma_click=1" className="">
                              <FiFacebook className="size-5"/>
                           </a> 
-                          <a href="/" className="">
+                          <a href="https://www.tiktok.com" className="">
                             <AiFillTikTok className="size-5"/>
                           </a>
-                          <a href="/" className="">
+                          <a href="https://www.instagram.com" className="">
                              <FiInstagram className="size-5"/>
                           </a>
                        </div>

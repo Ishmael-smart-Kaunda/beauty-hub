@@ -74,13 +74,13 @@ const NavBar = () => {
                 LOGO
                 ================
                 */}
-                <Link to="/" className="size-12 rounded-full bg-yellow-700 shrink-0">
+                <Link to="/" className="size-15 rounded-full bg-yellow-700 shrink-0">
                      <img src={logo} alt="logo" className="object-cover rounded-full" />
                 </Link>
              </div>
 
              {/*navigation */}
-             <div className={`flex z-50 absolute top-full left-0  ${isOpen ? 'translate-y-15' : '-translate-y-[150%]'} w-full h-[100vh] bg-white/30 transition-all duration-500 backdrop-blur-md`}>   
+             <div className={`flex z-50 absolute top-full left-0  ${isOpen ? 'translate-y-18' : '-translate-y-[150%]'} w-full h-[100vh] bg-white/30 transition-all duration-500 backdrop-blur-md`}>   
                <nav className="w-full h-fit py-6 flex flex-col gap-4 bg-black px-6">
                   <a href="#about" onClick={toggleMenu} className="">About</a>
                   <a href="#services" onClick={toggleMenu} className="">Services</a>

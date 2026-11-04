@@ -9,7 +9,7 @@ const Propositions =()=>{
                 {propositions.map((item)=>{
                     const Icon =item.icon
                     return(
-                        <article key={item.id} className="w-full flex gap-4 p-3 rounded-lg border border-[#3b3c36]/10">
+                        <article key={item.id} className="w-full flex gap-4 p-3 text-white/80 rounded-lg bg-black">
                             {/*icon*/}
                             <div className="flex p-2 w-fit h-fit rounded-full shrink-0 border text-amber-700/40 bg-amber-700/20">
                                <Icon className="size-5 m-auto"/>
