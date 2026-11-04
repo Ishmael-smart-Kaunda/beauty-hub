@@ -11,13 +11,13 @@ export const deliveryApproach = [
                 id:1,
                 icon:LuCalendarCheck,
                 title:'Booking',
-                description:"The customer selects a service, shares yur location, and arranges a appointment.",
+                description:"The customer selects a service, share their location, and arranges an appointment.",
             },
             {
                 id:2,
                 icon: LuMapPin,
                 title:'Call-out arrangements',
-                description:"We travel to your home, office, or venue of event.",
+                description:"We travel to thier home, office, venue of event or choosen location.",
             },
             {
                 id:3,

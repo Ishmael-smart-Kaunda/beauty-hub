@@ -2,6 +2,7 @@
 const About =()=>{
      return(
         <section id="about" className="w-full pt-20 bg-gray-100">
+              {/*content */}
               <header className="text-center">
                   <small className="text-[0.75rem] mx-auto font-semibold text-yellow-700 my-4">
                         Your Beauty, Our Convenience.

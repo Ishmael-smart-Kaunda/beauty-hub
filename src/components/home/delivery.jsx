@@ -17,10 +17,6 @@ const Delivery =()=>{
                  </h2>
              </header>
             <div className="w-full max-w-6xl mx-auto grid md:grid-cols-3 lg:grid-cols-4 gap-y-4 gap-x-6">
-                <article className="hidden lg:flex w-full h-full rounded-2xl overflow-hidden">
-                      <img src="https://i.pinimg.com/1200x/ed/01/41/ed014112ec7676384ba630c56925e9f1.jpg" 
-                       alt="manicure" className="w-full h-full object-cover" />
-                </article>
                 {deliveryApproach.map((item)=>{
                     const Icon =item.icon
                     return(
@@ -41,6 +37,10 @@ const Delivery =()=>{
                         </article>
                     )
                 })}
+                <article className="w-full h-full rounded-2xl overflow-hidden">
+                    <img src="https://i.pinimg.com/1200x/ed/01/41/ed014112ec7676384ba630c56925e9f1.jpg" 
+                    alt="manicure" className="w-full h-full object-cover" />
+                </article>
             </div>
         </section>
     )

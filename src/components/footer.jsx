@@ -3,6 +3,7 @@
 import { AiFillTikTok } from "react-icons/ai";
 import { FiFacebook, FiInstagram } from "react-icons/fi";
 import { LiaWhatsapp } from "react-icons/lia";
+import { LuPhoneCall } from "react-icons/lu";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
@@ -17,12 +18,22 @@ const Footer = () => {
                          </p>
 
                          <div className="mt-4">
-                             <a href="tel:+0676279132"
+                             <a href="https://wa.me/+0676279132"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="flex items-center gap-2 text-sm">
                                 <LiaWhatsapp className="hidden size-5"/>
-                                <p  className="text-xs">0676279132</p>
+                                <p  className="text-xs">+27 676 279 132</p>
+                             </a>
+                         </div>
+
+                         <div className="mt-2">
+                             <a href="tel:+0676279132"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="flex items-center gap-2 text-sm">
+                                <LuPhoneCall className="hidden size-5"/>
+                                <p  className="text-xs">+27 681 984 600</p>
                              </a>
                          </div>
 
