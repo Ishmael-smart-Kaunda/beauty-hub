@@ -18,21 +18,21 @@ const Footer = () => {
                          </p>
 
                          <div className="mt-4">
-                             <a href="https://wa.me/+0676279132"
+                             <a href="https://wa.me/+27676279132"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="flex items-center gap-2 text-sm">
-                                <LiaWhatsapp className="hidden size-5"/>
+                                <LiaWhatsapp className=" size-5"/>
                                 <p  className="text-xs">+27 676 279 132</p>
                              </a>
                          </div>
 
-                         <div className="mt-2">
+                         <div className="mt-3">
                              <a href="tel:+0676279132"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="flex items-center gap-2 text-sm">
-                                <LuPhoneCall className="hidden size-5"/>
+                                <LuPhoneCall className="size-4"/>
                                 <p  className="text-xs">+27 681 984 600</p>
                              </a>
                          </div>
