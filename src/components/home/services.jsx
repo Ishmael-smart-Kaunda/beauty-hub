@@ -13,9 +13,9 @@ const Services = ()=>{
     
    console.log(filteredServices)
       return(
-        <section id="services" className="w-full py-20 bg-[#FCF5E5]/50 px-6">
+        <section id="services" className="w-full font-sans py-20 bg-[#FCF5E5]/50 px-6">
             <header className="w-full max-w-6xl mx-auto text-center">
-                 <h2 className="text-[1.5rem] font-extrabold mb-6">
+                 <h2 className="text-[1.5rem]  font-extrabold mb-6">
                       Our Services
                  </h2>
              </header>

@@ -17,12 +17,12 @@ export default function Hero(){
             {/*content */}
             <div className=" relative pt-[25%] md:pt-[20%] lg:pt-0 lg:absolute lg:left-10 lg:bottom-10 rounded-3xl p-6 py-8 w-fit lg:w-3xl bg-black/30  h-fit text-white/70 space-y-4">
 
-               <h1 className="hero-title text-[1.5rem] text-yellow-600 lg:text-[2rem]  font-bold mt-6"> 
+               <h1 className="font-heading text-[1.71rem] sm:text-[1.78rem] md:text-[1.9rem] lg:text-[2.1rem] text-yellow-600 font-bold mt-6"> 
                     YOUR BEAUTY. YOUR SPACE. YOUR TIME.
                </h1>
 
                {/* */}
-               <div className="border-yellow-700/50 bg-ylow-700/5 rounded-xl space-y-4">
+               <div className="border-yellow-700/50 md:max-w-[70%] lg:max-w-[90%] font-sans bg-ylow-700/5 rounded-xl space-y-4">
                   <p className="w-full ">
                      From fresh haircuts and flawless braids to beautiful nails, 
                      makeup, tattoos, and cosmetics, Beauty Hub brings your beauty 
@@ -35,7 +35,7 @@ export default function Hero(){
                   </p>
                </div>
                {/*cta */}
-               <div className="hidden lg:flex flex-col md:flex-row gap-4 py-6">
+               <div className="hidden font-sans lg:flex flex-col md:flex-row gap-4 py-6">
                   <a href="https://wa.me/0676279132"
                      target="_blank"
                      rel="noopener noreferrer" 
@@ -48,7 +48,7 @@ export default function Hero(){
                </div>
 
                {/* work places */}
-               <div className="w-full grid grid grid-cols-2 gap-4 lg:hidden justify-between mt-10 border border-yellow-700/70 bg-yellow-900/10 p-3 rounded-2xl text-[#f5fffa]/70">
+               <div className="w-full font-sans grid grid-cols-2 gap-4 lg:hidden justify-between mt-10 border border-yellow-700/70 bg-yellow-900/10 p-3 rounded-2xl text-[#f5fffa]/70">
                   <div className="flex flex-col items-center justify-center p-2 bg-yellow-900 rounded-2xl">
                        <AiOutlineHome className="size-6"/>
                        <span className="text-xs">At home</span>
@@ -71,7 +71,7 @@ export default function Hero(){
                    </span>
                </div>
                {/*descriptive paragraph of above */}
-               <p className="lg:hidden text-xs px-4 py-3 border text-center border-[#fffafa]/90 bg-[#fffafa]/70 text-black [#524626] rounded-xl mt-8">
+               <p className="lg:hidden font-sans text-xs px-4 py-3 border text-center border-[#fffafa]/90 bg-[#fffafa]/70 text-black [#524626] rounded-xl mt-8">
                   We bring our services to every place of your choice
                </p>
 

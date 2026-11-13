@@ -8,14 +8,14 @@ const Products = ()=>{
 
 
       return(
-        <section id="products" className="w-full py-20 bg-[#FAF9F6]">
+        <section id="products" className="w-full font-sans py-20 bg-[#FAF9F6]">
             <header className="w-full max-w-6xl mx-auto text-center">
                  <h2 className="text-[1.5rem] font-extrabold mb-6">
                       Our Products
                  </h2>
              </header>
 
-            <div className="w-full max-w-6xl mx-auto grid md:grid-cols-3 lg:grid-cols-4 gap-y-16 gap-x-6 py-10">
+            <div className="w-full max-w-6xl mx-auto grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-y-16 gap-x-6 py-10">
                {cosmeticProducts.map((item)=>{
                   return(
                     <article key={item.id} className="w-full flex flex-col items-center text-justify">

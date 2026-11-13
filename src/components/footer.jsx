@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   const currentYear = new Date().getFullYear()
   return (
-            <section id="contact" className="w-full px-6 pt-20 pb-5">
+            <section id="contact" className="w-full px-6 font-sans pt-20 pb-5">
                <div className="w-full max-w-6xl mx-auto grid md:grid-cols-3 gap-4 gap-y-12">
                    <div className="flex w-full">
                       <div className="m-auto">
@@ -42,9 +42,9 @@ const Footer = () => {
                    </div>
                    {/*logo */}
                     <div className="w-full">
-                       <h2 className="font-bold text-center">Beauty Hub</h2> 
+                       <h2 className="font-bold font-heading text-[1.12rem] text-center">Beauty Hub</h2> 
                         <p className="text-xs text-center font-light text-amber-800">unisex salon</p>
-                       <p className="text-center">Your Beauty. Your Space. Your Time.</p>
+                       <p className="text-center ">Your Beauty. Your Space. Your Time.</p>
 
                        {/*=====================
                           social 

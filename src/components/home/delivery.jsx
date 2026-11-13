@@ -8,7 +8,7 @@ const Delivery =()=>{
 
 
     return(
-        <section className="w-full py-10 bg-white px-6">
+        <section className="w-full font-sans py-10 bg-white px-6">
             <header className="w-full max-w-6xl mx-auto text-center">
                  <h2 className="text-[1.5rem] font-extrabold mb-6">
                       Our Approach 
@@ -22,12 +22,12 @@ const Delivery =()=>{
                     return(
                         <article key={item.id} className="w-[95%] mx-auto border md:w-full flex flex-col items-center gap-8 b-yellow-700/10 b border-yellow-700/30 rounded-md py-8">
                             {/*icon*/}
-                            <div className="w-10 h-10 flex items-center justify-center font-extrabold bg-black text-white p-2 rounded-full shrink-0 borer">
+                            <div className="w-10 h-10 flex font-heading items-center justify-center font-extrabold bg-black text-white p-2 rounded-full shrink-0 borer">
                               {item.id}
                             </div>
                             {/*content*/}
                             <div className="space-y-3 text-center px-6">
-                                <h2 className="font-semibold">
+                                <h2 className="font-semibold text-[1.2rem] font-heading">
                                     {item.title}
                                 </h2>
                                 <p className="text-sm">
