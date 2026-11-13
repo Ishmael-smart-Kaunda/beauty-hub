@@ -30,7 +30,7 @@ const Products = ()=>{
                                     {item.price}
                                 </p>
                                 <p className="font-semibold uppercase">
-                                    zar
+                                    mwk
                                 </p>
                             </div>
                               
@@ -43,7 +43,7 @@ const Products = ()=>{
                                 {item.description}
                             </p>
                             {/*cta */}
-                            <a href="https://wa.me/+0676279132?text=Hi%20Beauty%20Hub!%20I%27d%20like%20to%20buy%20this%20product."
+                            <a href="https://wa.me/+265981457286?text=Hi%20Glow%20Finesse!%20I%27d%20like%20to%20buy%20this%20product."
                                 target="_blank"
                                 rel="noopener noreferrer"
                                className="px-6 py-2 font-bold bg-amber-800 text-white border mt-2 rounded-full">

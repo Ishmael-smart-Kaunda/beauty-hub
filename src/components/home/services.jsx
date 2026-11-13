@@ -47,7 +47,7 @@ const Services = ()=>{
                               {item.description}
                             </p>
                             <hr className="text-gray-500/20" />
-                            <a  href="https://wa.me/+0676279132?text=Hi%20Beauty%20Hub!%20I%27d%20like%20to%20book%20a%20service."
+                            <a  href="https://wa.me/+265981457286?text=Hi%20Glow%20Finesse!%20I%27d%20like%20to%20book%20a%20service."
                                 target="_blank"
                                 rel="noopener noreferrer"
                                className="uppercase text-xs tracking-wide flex flex-wrap items-center gap-x-2">
