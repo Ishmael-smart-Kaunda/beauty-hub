@@ -1,7 +1,7 @@
 // import Hero from "../components/home components/hero";
 import { LuMenu, LuX } from "react-icons/lu";
 import { Link } from "react-router-dom";
-import logo from "../assets/logo/logo.jpg"
+import logo from "../assets/logo/Logo.png"
 import { NavLink } from "react-router-dom";
 import { useState } from "react";
 const NavBar = () => {

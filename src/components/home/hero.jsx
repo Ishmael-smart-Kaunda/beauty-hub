@@ -25,7 +25,7 @@ export default function Hero(){
                <div className="border-yellow-700/50 md:max-w-[70%] lg:max-w-[90%] font-sans bg-ylow-700/5 rounded-xl space-y-4">
                   <p className="w-full ">
                      From fresh haircuts and flawless braids to beautiful nails, 
-                     makeup, tattoos, and cosmetics, Beauty Hub brings your beauty 
+                     makeup, tattoos, and cosmetics, GlowFinesse brings your beauty 
                      needs right to your doorstep.
                   </p>
                   <p className="w-full">

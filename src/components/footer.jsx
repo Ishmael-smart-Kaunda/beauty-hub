@@ -18,22 +18,22 @@ const Footer = () => {
                          </p>
 
                          <div className="mt-4">
-                             <a href="https://wa.me/+27676279132"
+                             <a href="https://wa.me/+265984368805"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="flex items-center gap-2 text-sm">
                                 <LiaWhatsapp className=" size-5"/>
-                                <p  className="text-xs">+27 676 279 132</p>
+                                <p  className="text-xs">+265 984 368805</p>
                              </a>
                          </div>
 
                          <div className="mt-3">
-                             <a href="tel:+0676279132"
+                             <a href="tel:+265981457286"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="flex items-center gap-2 text-sm">
                                 <LuPhoneCall className="size-4"/>
-                                <p  className="text-xs">+27 681 984 600</p>
+                                <p  className="text-xs">+265 981 457286</p>
                              </a>
                          </div>
 
@@ -42,7 +42,7 @@ const Footer = () => {
                    </div>
                    {/*logo */}
                     <div className="w-full">
-                       <h2 className="font-bold font-heading text-[1.12rem] text-center">Beauty Hub</h2> 
+                       <h2 className="font-bold font-heading text-[1.12rem] text-center">GlowFinesse</h2> 
                         <p className="text-xs text-center font-light text-amber-800">unisex salon</p>
                        <p className="text-center ">Your Beauty. Your Space. Your Time.</p>
 
@@ -51,7 +51,7 @@ const Footer = () => {
                           =====================
                         */}
                        <div className="flex justify-center gap-4 mt-6">
-                          <a href="https://www.facebook.com/profile.php?id=61589411817910&from_xma_click=1" className="">
+                          <a href="https://www.facebook.com" className="">
                              <FiFacebook className="size-5"/>
                           </a> 
                           <a href="https://www.tiktok.com" className="">

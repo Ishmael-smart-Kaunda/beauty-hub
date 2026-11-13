@@ -8,7 +8,7 @@ const About =()=>{
                         Your Beauty, Our Convenience.
                   </small>
                    <h2 className="text-[1.5rem] font-extrabold mb-10">
-                      Get To Know Beauty Hub
+                      Get To Know GlowFinesse
                  </h2>
               </header>
               <div className="w-full h-full mx-auto grid md:grid-cols-2">
