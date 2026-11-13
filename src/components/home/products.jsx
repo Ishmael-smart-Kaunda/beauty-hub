@@ -19,10 +19,10 @@ const Products = ()=>{
                {cosmeticProducts.map((item)=>{
                   return(
                     <article key={item.id} className="w-full flex flex-col items-center text-justify">
-                        <div className="relative w-full h-60">
+                        <div className="relative w-full min-h-60">
                              <div className="w-7/10 mx-auto h-full bg-black/10 rounded-t-full overflow-hidden">
                                  <img src={item.image} 
-                                  alt={item.imageAlt} className="w-full h-full object-cver" />
+                                  alt={item.imageAlt} className="w-full h-full shrink-0 object-center" />
                              </div>
                             {/*price tag */}
                             <div className="size-[65px] shadow-md shadow-yellow-600 absolute -bottom-10 right-10 md:right-3 md:-bottom-5 flex flex-col items-center justify-center rounded-full bg-yellow-400 text-sm text-white">
